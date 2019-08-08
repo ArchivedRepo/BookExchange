@@ -15,13 +15,15 @@ The purpose of our website is to create an open platform that allows students to
 
 - Chatbox: users can search for other users and chat with each other through chatbox
 
-# Deployment
+# Deployment Instructions
 This program use Node.js environment and requires a MongoDB connection, and a token to use email sending services from SendGrid. The link to database should be stored into an enviromental variable $DATABASE_TOKEN. And the SendGrid API Key should be stored in an environmental variable $EMAIL_TOKEN. 
 
 You should also specify the port in the environment variable $PORT. If not specified, the server will be listening on port 3000 for debugging purpose.
 
 Then running app.js with Node.js will start the server.
 
-Copyright: This README.md is written by @RuiqiW
 
-@Willqie @ericpko @tinally @RuiqiW
+# Copyright:
+This README.md is written by @RuiqiW
+
+And the project is written by @Willqie @ericpko @tinally @RuiqiW
